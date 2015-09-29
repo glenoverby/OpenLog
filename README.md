@@ -1,6 +1,20 @@
 OpenLog
 =======
 
+This is a fork of the SparkFun OpenLog project.  It records data from the
+analog inputs instead of the serial port.
+
+Analog was meant to be an option, but right now it's the only option.
+
+
+The pcb is a "version 1.0" and needs some changes made:
+ - go back to the voltage regulator that SFE used
+   (this pinout is for a TPS77033 which oscillates with a ceramic output cap)
+ - get a microSD socket that can be hand soldered
+ - put some screw holes on it!
+ - run +3.3v to the off-board header
+ - 0603 might be great in production, but 0805 is a lot nicer for hand soldering
+
 [![OpenLog](https://dlnmh9ip6v2uc.cloudfront.net/images/products/9/5/3/0/09530-01_i_ma.jpg)  
 *OpenLog (DEV-09530)*](https://www.sparkfun.com/products/9530)
 
